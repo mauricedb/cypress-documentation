@@ -28,7 +28,9 @@ function processNode(node, { error }) {
 
 \`\`\`js
 const { defineConfig } = require('cypress')
+
 ${header}
+
 module.exports = defineConfig({
   // setupNodeEvents can be defined in either the e2e or component
   // configuration
@@ -45,7 +47,9 @@ ${indent(functionBody, 6)}
 
 \`\`\`ts
 import { defineConfig } from 'cypress'
+
 ${header}
+
 export default defineConfig({
   // setupNodeEvents can be defined in either the e2e or component
   // configuration
@@ -62,6 +66,7 @@ ${indent(functionBody, 6)}
 
 \`\`\`js
 ${header}
+
 module.exports = (on, config) => {
 ${indent(functionBody, 2)}
 }
