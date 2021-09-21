@@ -78,11 +78,9 @@ Cypress.config() // => {defaultCommandTimeout: 10000, pageLoadTimeout: 30000, ..
 
 ### Name
 
-#### Return a single configuration option from [configuration](/guides/references/configuration) file
+#### Return a single configuration option from the [configuration file](/guides/references/configuration)
 
-=======
-
-#### Return a single configuration option from [configuration file](/guides/references/configuration) file
+#### Return a single configuration option from the [configuration file](/guides/references/configuration) file
 
 ```json
 {
@@ -150,7 +148,7 @@ environment variables - will be ignored at run-time.
 
 ### Test Configuration
 
-To apply specific Cypress [configuration file](/guides/references/configuration)
+To apply specific Cypress [configuration](/guides/references/configuration)
 values to a suite or test, you can pass a
 [test configuration](/guides/references/configuration#Test-Configuration) object
 to the test or suite function.
